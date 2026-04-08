@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  opencv-app:
+    build: .
+    container_name: opencv-ci
+    volumes:
+      - ./output:/app/output
