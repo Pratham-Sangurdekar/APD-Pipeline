@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install opencv-python-headless numpy
 
-CMD ["python", "apd.py"]
+CMD ["python", "app.py"]
