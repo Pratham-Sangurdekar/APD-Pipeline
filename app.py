@@ -9,7 +9,7 @@ img = np.zeros((400,600,3), dtype=np.uint8)
 
 cv2.putText(
     img,
-    "RAND ANAGHA",
+    "APD Jenkins CI/CD Pipeline",
     (30,200),
     cv2.FONT_HERSHEY_SIMPLEX,
     0.8,
