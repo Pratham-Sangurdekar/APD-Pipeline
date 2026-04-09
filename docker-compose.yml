@@ -6,3 +6,4 @@ services:
     container_name: opencv-ci
     volumes:
       - ./output:/app/output
+    restart: "no"

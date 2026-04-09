@@ -1,9 +1,9 @@
 FROM python:3.10-slim
 
-WORKDIR /app
+WORKDIR /apd
 
 COPY . .
 
 RUN pip install opencv-python-headless numpy
 
-CMD ["python", "app.py"]
+CMD ["python", "apd.py"]

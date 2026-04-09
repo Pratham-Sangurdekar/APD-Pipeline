@@ -29,7 +29,7 @@ pipeline {
             emailext(
                 subject: "Jenkins SUCCESS: ${env.JOB_NAME}",
                 body: "Build successful.\n\nCheck Jenkins for output.",
-                to: "your_email@gmail.com"
+                to: "wannabegmpratham@gmail.com"
             )
         }
 
@@ -37,7 +37,7 @@ pipeline {
             emailext(
                 subject: "Jenkins FAILED: ${env.JOB_NAME}",
                 body: "Build failed.\n\nCheck Jenkins logs.",
-                to: "your_email@gmail.com"
+                to: "wannabegmpratham@gmail.com"
             )
         }
     }
